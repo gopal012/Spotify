@@ -108,8 +108,8 @@ Array.from(document.getElementsByClassName("songItemPlay")).forEach((element) =>
             gif.style.opacity = 0;
             masterPlay.classList.remove("fa-circle-pause");
             masterPlay.classList.add("fa-circle-play");
-            // var ur = songs[songIndex - 1].coverPath;
-            // botbg.style.backgroundImage = `url(cover_pic/c${songIndex}.jpg)`; 
+            var ur = songs[songIndex - 1].coverPath;
+            botbg.style.backgroundImage = `url(cover_pic/c${songIndex}.jpg)`; 
             prevIndex = songIndex;
         }
         else if(document.getElementById(songIndex).classList.contains('fa-circle-play')){
@@ -133,8 +133,8 @@ Array.from(document.getElementsByClassName("songItemPlay")).forEach((element) =>
                 gif.style.opacity = 1;
                 masterPlay.classList.remove("fa-circle-play");
                 masterPlay.classList.add("fa-circle-pause");
-                // var ur = songs[songIndex - 1].coverPath;
-                // botbg.style.backgroundImage = `url(cover_pic/c${songIndex}.jpg)`;
+                var ur = songs[songIndex - 1].coverPath;
+                botbg.style.backgroundImage = `url(cover_pic/c${songIndex}.jpg)`;
                 prevIndex = songIndex; 
                 dur;
             }
@@ -176,8 +176,8 @@ document.getElementById("previous").addEventListener("click", () => {
   audioElements.play();
   masterPlay.classList.remove("fa-circle-play");
   masterPlay.classList.add("fa-circle-pause");
-  // var ur = songs[songIndex - 1].coverPath;
-  // botbg.style.backgroundImage = `url(cover_pic/c${songIndex}.jpg)`;
+  var ur = songs[songIndex - 1].coverPath;
+  botbg.style.backgroundImage = `url(cover_pic/c${songIndex}.jpg)`;
   document.getElementById(songIndex).classList.remove("fa-circle-play");
   document.getElementById(songIndex).classList.add("fa-circle-pause");
   dur;
@@ -198,8 +198,8 @@ document.getElementById("forward").addEventListener("click", () => {
   audioElements.play();
   masterPlay.classList.remove("fa-circle-play");
   masterPlay.classList.add("fa-circle-pause");
-  // var ur = songs[songIndex - 1].coverPath;
-  // botbg.style.backgroundImage = `url(cover_pic/c${songIndex}.jpg)`;
+  var ur = songs[songIndex - 1].coverPath;
+  botbg.style.backgroundImage = `url(cover_pic/c${songIndex}.jpg)`;
   document.getElementById(songIndex).classList.remove("fa-circle-play");
   document.getElementById(songIndex).classList.add("fa-circle-pause");
   dur;
@@ -215,8 +215,8 @@ audioElements.addEventListener('ended',function(){
   audioElements.play();
   masterPlay.classList.remove("fa-circle-play");
   masterPlay.classList.add("fa-circle-pause");
-  // var ur = songs[songIndex - 1].coverPath;
-  // botbg.style.backgroundImage = `url(cover_pic/c${songIndex}.jpg)`;
+  var ur = songs[songIndex - 1].coverPath;
+  botbg.style.backgroundImage = `url(cover_pic/c${songIndex}.jpg)`;
   document.getElementById(songIndex-1).classList.remove("fa-circle-pause");
   document.getElementById(songIndex-1).classList.add("fa-circle-play");
   document.getElementById(songIndex).classList.remove("fa-circle-play");
