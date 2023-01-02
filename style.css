@@ -27,7 +27,7 @@ nav ul div li{
     display: flex;  
     align-items: center;
     font-weight: bolder;
-    font-size: 1.3rem;
+    font-size: 1.3em;
 }
 .logo img{
     width: 50px;
@@ -54,7 +54,7 @@ nav ul div li{
 }
 
 .songList h1{
-    margin: 1em em
+    margin: 1em 5em
 }
 
 
