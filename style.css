@@ -7,6 +7,8 @@ body{
     margin: 0;
     padding: 0;
 }
+
+/* -----------------------------------------------------------------navbar--------------------------------------------- */
 nav{
     font-family: 'Lora', serif;
 }
@@ -15,123 +17,9 @@ nav ul{
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    height: 70px;
+    height: 9vh;
     background-color: black ;
     justify-content: space-between;
-}
-nav ul div li{
-    color: aliceblue;
-    padding: 0px 12px;
-}
-.logo{
-    display: flex;  
-    align-items: center;
-    font-weight: bolder;
-    font-size: 1.3em;
-}
-.logo img{
-    width: 50px;
-    height: 50px;
-    padding: 0px 12px 0px 0px;
-}
-
-.container{
-    height: 63.5vh;
-    background-color: black;
-    color: aliceblue;
-    font-family: 'Lora', serif;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    margin: 23px auto;
-    width: 70%;
-    border-radius: 14px;
-    padding: 34px;
-    background-image: url("bg.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-}
-
-.songList h1{
-    margin: 1em 5.5em
-}
-
-
-.bottom{
-    /* background-image: url('cover_pic/c1.jpg'); */
-    /* background-repeat: repeat-x no-repeat;
-    background-position: center; */
-    /* background-size:cover; */
-    position: sticky;
-    height: 100px;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: aliceblue;
-}
-
-.icons{
-    margin: 10px 0px;
-}
-
-i{
-    cursor: pointer;
-}
-
-#myProgressBar{
-    width: 75vw;
-    cursor: pointer;
-    position: absolute;
-    top: 1vh;
-}
-
-.songItem{
-    width: 23vw;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(237, 237, 237);
-    color: black;
-    border-radius: 25px;
-    font-size: 2.5vh;
-    margin: 10px 80px;
-}
-
-.songItem img{
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-}
-.timeStamp{
-    margin: 0px 15px;
-}
-.botbg{
-    position: absolute;
-    left: 15vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    top: 3vh;
-}
-.botbg img{
-    width: 50px;
-    height: 50px;
-    opacity: 0;
-    transition: opacity 0.5s ease-in;
-}
-
-#masterSong{
-    color: aliceblue;
-}
-
-.List{
-    overflow-y: scroll;
-    height: 55vh;
-    margin: 30px;
 }
 
 nav ul div{
@@ -139,6 +27,11 @@ nav ul div{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+nav ul div li{
+    color: aliceblue;
+    padding: 0px 12px;
 }
 
 #searchBar input{
@@ -152,6 +45,122 @@ nav ul div{
     font-family: 'Lora';
 }
 
+/*--------------------------------------------------------------------------logo----------------------------------------*/
+.logo{
+    display: flex;  
+    align-items: center;
+    font-weight: bolder;
+    font-size: 3vh;
+}
+.logo img{
+    width: 3.5vw;
+    height: 7.5vh;
+    padding: 0px 1vw 0px 0px;
+}
+
+
+/*------------------------------------------------------------container with background----------------------------------*/
+.container{
+    height: 63.5vh;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Lora', serif;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 3vh auto;
+    width: 70%;
+    border-radius: 2vw;
+    padding: 34px;
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.songList h1{
+    margin: 2.5vh 10vw;
+}
+
+/*---------------------------------------------scroll bar----------------------------------*/
+.List{
+    overflow-y: scroll;
+    height: 55vh;
+    margin: 1.5vw;
+}
+
+/*---------------------------------------------------------song list and image specs-------------------------------------*/
+.songItem{
+    width: 22vw;
+    height: 6.5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(237, 237, 237);
+    color: black;
+    border-radius: 3vw;
+    font-size: 2.5vh;
+    margin: 1.5vh 5vw;
+}
+
+.songItem img{
+    width: 3vw;
+    height: 6.5vh;
+    border-radius: 100%;
+}
+
+.timeStamp{
+    margin: 0px 1vw;
+}
+
+/*--------------------------------------------------------------------music Name and gif---------------------------------*/
+.botbg{
+    position: absolute;
+    left: 15vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    top: 3vh;
+}
+.botbg img{
+    width: 3vw;
+    height: 6vh;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+#masterSong{
+    color: aliceblue;
+}
+
+/*-----------------------------------------------------------------------bottom part-----------------------------------*/
+.bottom{
+    /* background-image: url('cover_pic/c1.jpg'); */
+    /* background-repeat: repeat-x no-repeat;
+    background-position: center; */
+    /* background-size:cover; */
+    position: sticky;
+    height: 12.5vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 75vw;
+    cursor: pointer;
+    position: absolute;
+    top: 1vh;
+}
+
+/*--------------------------------------------timer-----------------------------------------------*/
 #Times{
     z-index: -1;
     display: flex;

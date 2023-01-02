@@ -1,0 +1,16 @@
+.container{
+    width: 75%;
+}
+.songList h1{
+    margin: 1.5vw 9vw -1.5vw 9vw;
+    text-align: center;
+}
+
+.songItem{
+    width: 75%;
+    font-size: 2vh;
+    margin: 1.5vh 3vw;
+}
+.botbg{
+    left: 16vw;
+}

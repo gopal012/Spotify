@@ -1,0 +1,35 @@
+#searchBar input{
+    width: 25vw;
+}
+
+.logo img{
+    width: 6.5vw;
+    height: 6.5vh;
+    padding: 0px 1vw 0px 0px;
+}
+
+.container{
+    background-image: url("kp.jpg");
+    justify-content: center;
+}
+
+.songList h1{
+    text-align: center;
+} 
+
+.songItem{
+    width: 55vw;
+    margin: 1.5vh 2vw;
+    font: 1vw;
+    text-align: center;
+}
+.songItem img{
+    width: 6.5vw;
+    height: 6.5vh;
+    border-radius: 100%;
+}
+
+.botbg{
+    left: 20vw;
+    font-size: 1.5vw;
+}

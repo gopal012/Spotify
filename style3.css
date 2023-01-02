@@ -1,0 +1,31 @@
+nav{
+    font-size: 3vw;
+}
+.container{
+    background-image: url("kp.jpg");
+    justify-content: center;
+}
+
+.songList h1{
+    margin: 2.5vh 0vw;
+    text-align: center;
+} 
+
+.songItem{
+    width: 75vw;
+    margin: 1.5vh 2vw;
+    font: 1vw;
+    text-align: center;
+    border-radius: 6vw;
+}
+.songItem img{
+    width: 11vw;
+    height: 6.5vh;
+    border-radius: 100%;
+}
+
+.botbg{
+    top: 6vh;
+    left: 10vw;
+    font-size: 1.5vw;
+}
