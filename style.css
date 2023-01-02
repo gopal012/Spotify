@@ -27,7 +27,7 @@ nav ul div li{
     display: flex;  
     align-items: center;
     font-weight: bolder;
-    font-size: 1.3rem;
+    font-size: 1.3em;
 }
 .logo img{
     width: 50px;
@@ -54,7 +54,7 @@ nav ul div li{
 }
 
 .songList h1{
-    margin: 1rem 9rem
+    margin: 1em 5em
 }
 
 
@@ -97,7 +97,7 @@ i{
     background-color: rgb(237, 237, 237);
     color: black;
     border-radius: 25px;
-    font-size: 1.1rem;
+    font-size: 1.1em;
     margin: 10px 80px;
 }
 
@@ -142,13 +142,13 @@ nav ul div{
 }
 
 #searchBar input{
-    margin: 1rem 14rem 1rem 1rem;
-    padding: 0.7rem 1rem;
-    border-radius: 2rem;
+    margin: 1em 14em 1em 1em;
+    padding: 0.7em 1em;
+    border-radius: 2em;
     text-align: center;
     font-weight: bolder;
-    font-size: 1rem;
-    width: 20rem;
+    font-size: 1em;
+    width: 20em;
     font-family: 'Lora';
 }
 
